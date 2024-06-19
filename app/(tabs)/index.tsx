@@ -3,7 +3,7 @@ import { StyleSheet, ScrollView, TextInput, Button } from 'react-native';
 import { GoogleGenerativeAI } from '@google/generative-ai';
 import { ThemedText } from '@/components/ThemedText';
 
-const genAI = new GoogleGenerativeAI('AIzaSyDbd2H8lIN78X6epgF0y4uKZj2BEvnHZmc');
+const genAI = new GoogleGenerativeAI('Gemini API Key');
 const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash"});
 const chat = model.startChat()
 
